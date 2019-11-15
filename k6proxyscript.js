@@ -40,7 +40,7 @@ export let options = {
 }
 
 export default () => {
-  // http.get(`http://127.0.0.1:5000/?${random()}`);
+  http.get(`http://127.0.0.1:5001/?productId=?${random()}`);
   // http.get(`http://127.0.0.1:5000/api/comment/${random()}`);
   //sleep(1);
 }

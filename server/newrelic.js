@@ -10,7 +10,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['SDC-REVIEWS'],
+  app_name: ['SDC-PROXY'],
   /**
    * Your New Relic license key.
    */
