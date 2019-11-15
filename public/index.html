@@ -2,8 +2,7 @@
 <html>
 
 <head>
-  <title></title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <title>PROXY SERVER SDC</title>
 </head>
 
 <body>
@@ -11,15 +10,16 @@
     <div id="app"></div>
     <div id="app-carousel"></div>
   </div>
-
-
   </div>
 
-  <div id="root"></div>
+  <div id="RootReviews"></div>
 
-  <script src="http://localhost:3000/main.js"></script>
-  <script src="http://localhost:1234/bundle.js"></script>
-  <script src="http://localhost:5000/bundle.js"></script>
+  <!-- <script type="module" src="http://localhost:3000/main.js"></script>
+  <script type="module" src="http://localhost:1234/bundle.js"></script> -->
+  <script type="module" src="http://ec2-18-218-0-111.us-east-2.compute.amazonaws.com:5000/bundle.js"></script>
+  <!-- <script>
+    ReactDOM.render(React.createElement(App), document.getElementById('RootReviews'))
+  </script> -->
 </body>
 
 </html>
